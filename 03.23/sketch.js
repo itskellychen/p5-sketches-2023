@@ -7,7 +7,7 @@ function draw(){
 
     strokeWeight(5);
 
-    // line(x1, y1, x2, y2)
+    // Syntax: line(x1, y1, x2, y2)
     line(800, 100, 300, 200);
     line(500, 100, 250, 500);
     line(300, 300, 250, 700);
