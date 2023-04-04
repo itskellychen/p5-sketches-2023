@@ -24,6 +24,3 @@ function draw(){
     line(300, 200, 400, 400);
     line(400, 900, 1000, 800);
 }
-
-// For next time:
-// https://p5js.org/reference/#/p5/vertex
