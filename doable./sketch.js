@@ -1,3 +1,4 @@
+// Toggle for B&W only
 function setup(){
     createCanvas(1000, 1000);
 
@@ -43,3 +44,26 @@ function draw(){
     // console.log("one value: "+ random(100)); // value between 100
     // console.log("two value: "+ random(200)); // value between 200
 }
+
+// // Toggle for colour only
+// function setup(){
+//     createCanvas(1000, 1000);
+
+//     beginShape()
+//         for (let i=0; i<width; i++) {
+//             let yPosition = sin(i/10)*1000;
+//             vertex(i, yPosition)
+//         }
+//     endShape()
+// }
+
+// function draw(){
+//     frameRate(1);
+
+//     for (let i=0; i<100; i++) {
+//         ellipse(random(width), random(height), 30);
+//     }
+
+//     ellipse(500+random(50), 500+random(50), 500+random(50));
+//     fill(220,206,232);
+// }
